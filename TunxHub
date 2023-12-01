@@ -45,7 +45,7 @@ Name = <string> - The name of the section.
 
 
 
-Tab:AddToggle({
+Tab:AddButton({
 	Name = "Auto Parry",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
@@ -124,7 +124,7 @@ Callback = <function> - The function of the button.
 
 
 
-Tab:AddToggle({
+Tab:AddButton({
 	Name = "Auto Spam",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/tunxhghg/TunxHub-BladeBall/main/Auto%20Spam"))()
@@ -138,10 +138,10 @@ Callback = <function> - The function of the button.
 
 
 
-Tab:AddToggle({
+Tab:AddButton({
 	Name = "Auto Detect Spam",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://pastebin.com/raw/HPNBFGSf'),true))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/tunxhghg/TunxHub-BladeBall/main/Auto%20Detect%20Spam'),true))()
   	end    
 })
 

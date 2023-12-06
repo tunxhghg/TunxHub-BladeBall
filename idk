@@ -1,8 +1,3 @@
-  game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Made by tunxmt on discord",
-	Text = "Auto Parry V2 Super OP",
-	Duration = 2
-})
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
     local replicatedStorage = game:GetService("ReplicatedStorage")
